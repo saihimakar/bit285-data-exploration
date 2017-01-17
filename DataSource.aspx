@@ -16,7 +16,7 @@
 
             ddlSections.DataSource = Sections;
             ddlSections.DataBind();
-        }
+        } 
     </script>
 </head>
 <body>
