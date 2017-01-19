@@ -20,17 +20,18 @@
 
     protected void Button1_Click(object sender, EventArgs e)
     {
-        
+
         Artists.Tables[0].NewRow();
         DataRow myRow = Artists.Tables[0].NewRow();
         myRow["name"] = "Georges Seurat";
         myRow["nationality"] = "France";
         myRow["movement"] = "Neo-impressionism";
         myRow["birthdate"] = "Dec 2 1859";
-         Artists.Tables[0].Rows.Add(myRow);
+
+        Artists.Tables[0].Rows.Add(myRow);
         Artists.AcceptChanges();
-         gvArtists.DataBind();
-       
+        gvArtists.DataBind();
+
 
     }
 </script>
