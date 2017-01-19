@@ -27,7 +27,8 @@
         </asp:DropDownList>
     
     </div>
-        <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="grocergo" DataTextField="CategoryName" DataValueField="CategoryID">
+        
+        <asp:DropDownList ID="ddlCategories" runat="server" DataSourceID="grocergo" DataTextField="CategoryName" DataValueField="CategoryID">
             <asp:ListItem>ddlCategories</asp:ListItem>
         </asp:DropDownList>
         <asp:SqlDataSource ID="grocergo" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT * FROM [Categories]"></asp:SqlDataSource>
