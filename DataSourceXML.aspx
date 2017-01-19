@@ -29,7 +29,6 @@
         myRow["birthdate"] = "Dec 2 1859";
 
         Artists.Tables[0].Rows.Add(myRow);
-        Artists.AcceptChanges();
         gvArtists.DataBind();
 
 
