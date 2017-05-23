@@ -13,7 +13,7 @@
             Sections.Add("Baking");
             Sections.Add("Soups");
             Sections.Sort();
-
+            // This selectin is great
             ddlSections.DataSource = Sections;
             ddlSections.DataBind();
         } 
